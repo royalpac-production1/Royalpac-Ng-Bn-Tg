@@ -16,7 +16,7 @@
                                                                                                                                                 --main-color: #000080;
                                                                                                                                             }
                                                                                                                                             
-                                                                                                                                            html {
+                                                                                                                                            html{
                                                                                                                                                 font-size: 62.5%;
                                                                                                                                                 overflow-x: hidden;
                                                                                                                                             }
@@ -30,6 +30,7 @@
                                                                                                                                                 background-image: url(gallery/slide-img.jpeg);
                                                                                                                                                 align-items: center;
                                                                                                                                                 display: contents;
+                                                                                                                                                overflow-x:hidden;
                                                                                                                                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                                                                                                                                             }
                                                                                                                                             
@@ -2122,6 +2123,12 @@
                                                                                                                                                     margin-top: -25%;
                                                                                                                                                     margin-bottom: -53%;
                                                                                                                                                 }
+                                                                                                                                             .img-slider .slide {
+                                                                                                                                            position:relative;
+                                                                                                                                            padding:5%;
+                                                                                                                                            height:60vh;
+                                                                                                                                            }
+                                                                                                                                                                                                                                                                                        
                                                                                                                                             }
                                                                                                                                             
                                                                                                                                             @media (max-width:550px) {
